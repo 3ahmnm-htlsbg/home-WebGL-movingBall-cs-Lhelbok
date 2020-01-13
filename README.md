@@ -40,8 +40,8 @@ WebGL has to be installed
 
 ### Third party material: 
 
-Github Template: 3ahmnm-htlsbg/Unity2019114f1-2D-Template
-Ball: https://www.freepik.com/free-vector/set-soccer-balls-flat-style_2071331.htm#page=1&query=ball&position=15
+* Github Template: 3ahmnm-htlsbg/Unity2019114f1-2D-Template
+* Ball: https://www.freepik.com/free-vector/set-soccer-balls-flat-style_2071331.htm#page=1&query=ball&position=15
 
 ### Project state: 
 
@@ -58,4 +58,5 @@ None
 * Generate and use random numbers
 * How to build for WebGL and host with GitHub Pages
 
-Copyright by Lhelbok
+
+*Copyright by Lhelbok*
