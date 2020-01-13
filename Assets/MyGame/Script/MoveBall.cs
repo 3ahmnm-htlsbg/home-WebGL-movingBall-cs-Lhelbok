@@ -13,11 +13,13 @@ public class MoveBall : MonoBehaviour
     public void SetBallPosition()
     {
         Ball.transform.position = BallPosition[CalcRandomValue()].transform.position;
+        // Set the ball position to a random value
     }
-    int CalcRandomValue()
+    private int CalcRandomValue()
     {
         randomValue = UnityEngine.Random.Range(0, 4);
         while (randomValue == lastValue)
+        // Ensure that a new position is calculated
         {
             randomValue = UnityEngine.Random.Range(0, 4);
         }
