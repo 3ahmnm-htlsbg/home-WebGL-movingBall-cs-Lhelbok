@@ -8,6 +8,8 @@ The simple project consists of a screen independent canvas (960x600), a button (
 
 When pressing the button "Move Ball" the ball moves randomly to one of the four predefined positions. There are 4 positions available (4 empty GameObjects: PosBottomLeft, PosBottomRight, PosTopLeft, PosTopRight). I solved this task with variant 1 (direct repetition of the randomly chosen position is possible).
 
+You can find the hosted game on: https://3ahmnm-htlsbg.github.io/home-WebGL-movingBall-cs-Lhelbok/
+
 
 ### Development platform: 
 
