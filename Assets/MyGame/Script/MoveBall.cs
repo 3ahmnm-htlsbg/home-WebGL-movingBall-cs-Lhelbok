@@ -1,18 +1,27 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MoveBall : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private GameObject[] BallPosition;
+    public GameObject Ball;
+    public int lastValue;
+    public int randomValue;
 
-    // Update is called once per frame
-    void Update()
+    public void SetBallPosition()
     {
-        
+        Ball.transform.position = BallPosition[CalcRandomValue()].transform.position;
+    }
+    int CalcRandomValue()
+    {
+        randomValue = UnityEngine.Random.Range(0, 4);
+        while (randomValue == lastValue)
+        {
+            randomValue = UnityEngine.Random.Range(0, 4);
+        }
+        lastValue = randomValue;
+        return randomValue;
     }
 }
