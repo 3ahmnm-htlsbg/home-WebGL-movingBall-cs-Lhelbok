@@ -24,9 +24,15 @@ WebGL 960x600
 
 #### Initialized Program
 
+<div>
+<img src = "./Screenshots/home-WebGL-movingBall-cs-Lhelbok_Initialized.png" width = "500">
+</div>
 
 #### Executed Program
 
+<div>
+<img src = "./Screenshots/home-WebGL-movingBall-cs-Lhelbok_Executed.png" width = "500">
+</div>
 
 ### Necessary setup/execution steps: 
 
